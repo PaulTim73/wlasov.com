@@ -1,0 +1,41 @@
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+input[type="text"] {
+    background-image: none!important;
+}
+
+.uk-icon:not(.uk-preserve) [stroke*='#']:not(.uk-preserve) {
+    display: none;
+}
+
+.option-text{
+    text-align: center;
+    line-height: 10px;
+    padding-top: 10px;
+     
+}
+
+.card{
+    background-color:#ea80fc;
+    border: 0;
+    margin-right: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-card{
+    border-radius: 1.35rem;
+    border: 0;
+    background-color: white;
+    transition: 0.2s;
+    
+}
+.btn-card:focus{
+    background-color: green;
+    
+}
