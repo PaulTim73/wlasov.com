@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 html {
     overflow-x: hidden;
     margin-right: calc(-1 * (100vw - 100%));
@@ -89,4 +90,10 @@ input[type="text"] {
 
 } 
 
-
+.slider-title{
+    text-align: center;
+    font-size: 29px;
+    line-height: 1;
+    color: #fff;
+    font-weight: bold;
+}
