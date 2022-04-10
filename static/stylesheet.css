@@ -40,8 +40,8 @@ input[type="text"] {
 }
 .btn-card.focus{
     background-color: green;
-}
 
+}
 .slider.horizontal{
     overflow-x: auto;
     position: relative;
@@ -67,7 +67,6 @@ input[type="text"] {
     -ms-flex-align: center;
     align-items: center;
     gap: 12px;
-    
 }
 .slider>ul>li{
     list-style: none;
@@ -84,4 +83,7 @@ input[type="text"] {
 .container-fluid .slider.horizontal{
     margin-left: -0.75rem;
     margin-right: -0.75rem;
+
 } 
+
+
