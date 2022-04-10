@@ -42,7 +42,7 @@ input[type="text"] {
     transition: 0.2s; 
 }
 .btn-card.focus{
-    background-color: rgb(10, 175, 10)
+    background-color: #00f469;
 
 }
 .slider.horizontal{
