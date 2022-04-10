@@ -20,7 +20,6 @@ input[type="text"] {
     text-align: center;
     line-height: 10px;
     padding-top: 10px;
-     
 }
 
 .card{
@@ -30,6 +29,9 @@ input[type="text"] {
     display:flex;
     align-items: center;
     justify-content: center;
+}
+.option-text .card-text{
+    font-family: 'Days One', sans-serif;
 }
 
 .btn-card{
