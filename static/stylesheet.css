@@ -30,8 +30,9 @@ input[type="text"] {
     align-items: center;
     justify-content: center;
 }
-.option-text .card-text{
+.option-text,.card-text{
     font-family: 'Days One', sans-serif;
+    
 }
 
 .btn-card{
@@ -41,7 +42,7 @@ input[type="text"] {
     transition: 0.2s; 
 }
 .btn-card.focus{
-    background-color: green;
+    background-color: rgb(10, 175, 10)
 
 }
 .slider.horizontal{
