@@ -92,67 +92,63 @@
     <img src="static/se2.png" style="width: 100vw!important;" class="d-block w-100" alt="Магазин здорового питания">
 
     <!-- Slider -->
-    <div class="uk-light container uk-slider" style="position: relative; top: -340px" tabindex="-1" uk-slider="velocity:0.75; finite: true">
-        <div class="uk-position-relative">
-            <div class="uk-slider-container">
-                <ul class="uk-slider-items" style="transform: translate3d(0px, 0px, 0px);">
-                    
-                    <li tabindex="-1" class="card">
-                        <div class="option-items text-white mx-auto">
-                        <div class="option-body">
-                            <p class="option-text text-white fs-3">выбери</p>
-                            <p class="option-text text-white fs-3">свой класс</p>
-                        </div>
-                        </div>
-                    </li>
-            
-                    <li tabindex="-1" class="card">
-                        <button type="button" class="btn-card btn-white text-light"  onclick="$('#msg').toggleClass('d-none')">
-                        <div class="card-body">
-                            <p class="card-text text-nowrap text-dark fs-3">Худею 30 дневный курс</p>
-                        </div>
-                        </button>
-                        <div class="d-none" id="msg">
-                            Здесь будет мегарулетка
-                        </div>
-                    </li>
-            
-                    <li tabindex="-1" class="card">
-                        <button type="button" class="btn-card btn-white text-light">
-                        <div class="card-body">
-                            <p class="card-text text-nowrap text-dark fs-3">Спорт натуральные белки и клетчатка</p>
-                        </div>
-                        </button>
-                    </li>
-            
-                    <li tabindex="-1" class="card">
-                        <button type="button" class="btn-card btn-white text-light">
-                        <div class="card-body">
-                            <p class="card-text text-nowrap text-dark fs-3">Иммунитет обилие витаминов группы B</p>
-                        </div>
-                        </button>
-                    </li>
-            
-                    <li tabindex="-1" class="card">
-                        <button type="button" class="btn-card btn-white text-light">
-                        <div class="card-body">
-                            <p class="card-text text-nowrap text-dark fs-3">Уход за кожей вывод токсинов и баланс</p>
-                        </div>
-                        </button>
-                    </li>
-            
-                    <li tabindex="-1" class="card">
-                        <button type="button" class="btn-card btn-white text-light" style="border-radius: 1.35rem;">
-                        <div class="card-body">
-                            <p class="card-text text-nowrap text-dark fs-3">Диабетику микрозелень дополняет рацион</p>
-                        </div>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <div class="slider horizontal">
+        <ul class="slider-card">
+            <li>
+                <div class="option-items">
+                <div class="option-body">
+                    <p class="option-text text-white fs-3">выбери</p>
+                    <p class="option-text text-white fs-3">свой класс</p>
+                </div>
+                </div>
+            </li>
+
+            <li>
+                <button type="button" class="btn-card btn-white text-light"  onclick="$('#msg').toggleClass('d-none')">
+                <div class="card-body">
+                    <p class="card-text text-nowrap text-dark fs-3">Худею 30 дневный курс</p>
+                </div>
+                </button>
+                <div class="d-none" id="msg">
+                    Здесь будет мегарулетка
+                </div>
+            </li>
+
+            <li>
+                <button type="button" class="btn-card btn-white text-light">
+                <div class="card-body">
+                    <p class="card-text text-nowrap text-dark fs-3">Спорт натуральные белки и клетчатка</p>
+                </div>
+                </button>
+            </li>
+
+            <li>
+                <button type="button" class="btn-card btn-white text-light">
+                <div class="card-body">
+                    <p class="card-text text-nowrap text-dark fs-3">Иммунитет обилие витаминов группы B</p>
+                </div>
+                </button>
+            </li>
+
+            <li>
+                <button type="button" class="btn-card btn-white text-light">
+                <div class="card-body">
+                    <p class="card-text text-nowrap text-dark fs-3">Уход за кожей вывод токсинов и баланс</p>
+                </div>
+                </button>
+            </li>
+
+            <li>
+                <button type="button" class="btn-card btn-white text-light">
+                <div class="card-body">
+                    <p class="card-text text-nowrap text-dark fs-3">Диабетику микрозелень дополняет рацион</p>
+                </div>
+                </button>
+            </li>
+        </ul>
     </div>
 </div>
+
 
 <div class="container-fluid d-none d-lg-block" style="background-color: #ea80fc">
     <img src="static/Store_for_pc.png" style="width: 100vw!important;" class="d-block w-100" alt="Магазин здорового питания">
@@ -534,6 +530,11 @@
         crossorigin="anonymous"></script>
     <!-- JS -->
     <script type="text/javascript" src="static/scripts.js"></script>
+    <script>
+        $('.slider .btn-card').on('click', function(){
+            $(this).toggleClass('focus')
+        })
+    </script>
 </body>
 
 </html>
