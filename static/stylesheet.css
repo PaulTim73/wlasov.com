@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@font-face {
+    font-family: 'Days One';
+    src: url(fonts/days.ttf) format('truetype'),
+    url(fonts/days.eot) format('embedded-opentype'),
+    url(fonts/days.woff ) format('woff');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 html {
     overflow-x: hidden;
@@ -18,8 +24,6 @@ input[type="text"] {
  margin-right: 1rem;
  top: 10px ;
 }
-
-
 
 .card{
     background-color:#ea80fc;
@@ -94,7 +98,7 @@ input[type="text"] {
     color: #fff;
     font-weight: bold;
 }
-    
+  /*  
 .btn-slider{
     margin: 10px auto;
     max-width: 100%;
@@ -127,6 +131,9 @@ input[type="text"] {
   color: white;
   font-size: 'Roboto', sans-serif;;
   
+  }
+  .card-stock{
+      background: white;
   }
   
 
