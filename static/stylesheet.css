@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 html {
     overflow-x: hidden;
     margin-right: calc(-1 * (100vw - 100%));
@@ -11,16 +13,13 @@ input[type="text"] {
     display: none;
 }
 .option-body{
- width: 8rem;
+ width: 10rem;
  position: relative;
  margin-right: 1rem;
+ top: 10px ;
 }
 
-.option-text{
-    text-align: center;
-    line-height: 10px;
-    padding-top: 10px;
-}
+
 
 .card{
     background-color:#ea80fc;
@@ -88,5 +87,48 @@ input[type="text"] {
     margin-right: -0.75rem;
 
 } 
+.slider-title{
+    text-align: center;
+    font-size: 29px;
+    line-height: 1;
+    color: #fff;
+    font-weight: bold;
+}
+    
+.btn-slider{
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 2px 2px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    position: relative;
+    background: #ea80fc;
+   
+  }
+  .btn-row {
+    
+      border: none;
+      background-color: #ea80fc;
+      font-size: 16px;
+      cursor: pointer;
+      display: inline-block;
+      border-radius: 10px;
+      margin: 5px;
+      
+  }
+  
+  .btn-row:hover {
+    background: white;
+    color: #ea80fc;
+    }
+  
+  .make, .start, .complicated { 
+  color: white;
+  font-size: 'Roboto', sans-serif;;
+  
+  }
+  
+
 
 
